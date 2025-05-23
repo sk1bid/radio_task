@@ -1,0 +1,7 @@
+Задание 1:
+echo "Hello, DevOps!" > ~/hello.txt && cat ~/hello.txt
+Запишет фразу в файл hello.txt и выведет его содержимое
+
+Задание 2:
+cat /var/log/syslog | grep "error" | head -n 5
+Прочитает syslog --> возьмет все строки с "error" --> выведет первые 5
